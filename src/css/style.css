@@ -166,7 +166,7 @@ video {
     justify-content: center;
     align-items: center;
     background-image: linear-gradient(rgba(32, 32, 32, 0.5), rgba(32, 32, 32, 0.5)),
-              url("src/imgs/bio.jpg");
+              url("../imgs/bio.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -185,7 +185,7 @@ video {
 }
 
 #redes__container--foto{
-    background-image: url("src/imgs/kaze perfil.JPG");
+    background-image: url("../imgs/kaze perfil.JPG");
     height: 40vh;
     width: 20vw;
     min-width: 12em;
