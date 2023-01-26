@@ -40,12 +40,12 @@ footer b {
     color: rgb(83, 83, 83);
 }
 
-#logo {
-    filter: invert(1);
-    width: 5vh;
-}
+
+
+/* Nav */
 
 nav {
+    z-index: 999;
     display: flex;
     align-items: center;
     height: 10vh;
@@ -57,10 +57,26 @@ nav {
     font-variant: small-caps;
 }
 
+#logo {
+    filter: invert(1);
+    width: 5vh;
+}
+
 .enlaces {
     display: flex;
     gap: 2em;
 }
+
+.enlaces a{
+    transition: .3s color;
+    padding: 1em;
+}
+
+.enlaces a:hover {
+    color: #BBB;
+}
+
+/* Principal */
 
 video {
     z-index: -1;
@@ -78,14 +94,14 @@ video {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 90vh;
     width: 100%;
 }
 
 .hero__letras {
     z-index: 999;
     position: absolute;
-    top: 5vh;
+    top: 10vh;
     left: 0;
     width: 100%;
     height: 100vh;
@@ -108,6 +124,8 @@ video {
     justify-content: center;
     max-width: 100vw;
 }
+
+/* Temas */
 
 .temas {
     display: flex;
@@ -141,6 +159,61 @@ video {
     backdrop-filter: opacity(0.5);
     background-image: url('../imgs/nubes2.png');
 }
+
+/* Redes */
+.redes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(rgba(32, 32, 32, 0.5), rgba(32, 32, 32, 0.5)),
+              url("src/imgs/bio.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 90vh;
+}
+
+.redes__container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #222;
+    border-radius: 1em;
+    padding: 2em;
+    width: fit-content;
+}
+
+#redes__container--foto{
+    background-image: url("src/imgs/kaze perfil.JPG");
+    height: 40vh;
+    width: 20vw;
+    min-width: 12em;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position:center;
+}
+
+#redes__container--nombre{
+    color: #fff;
+    font-size: 2em;
+    font-weight: 600;
+    margin: .3em 0 .2em 0;
+}
+
+.redes__container--redes{
+    margin-top: .5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+}
+
+.redes__container--redes img{
+    height: 2em;
+}
+
+
 
 @media (max-width: 868px) {
     html,
