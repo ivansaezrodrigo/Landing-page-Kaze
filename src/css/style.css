@@ -150,6 +150,10 @@ video {
         height: 1em;
         width: 1em;
     }
+    .hero__letras--row1 img,
+    .hero__letras--row2 img {
+        filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.3));
+    }
     .hero__letras--container {
         transform: scale(.7);
     }
