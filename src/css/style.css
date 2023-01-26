@@ -282,8 +282,9 @@ video {
     #A,
     #Z,
     #E {
-        height: 1em;
-        width: 1em;
+        /* height: 1em;
+        width: 1em; */
+        transform: scale(.4);
     }
     .hero__letras--row1 img,
     .hero__letras--row2 img {

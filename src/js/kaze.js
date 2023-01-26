@@ -5,8 +5,13 @@ const z = document.querySelector('#z');
 const e = document.querySelector('#e');
 var mediaqueryList = window.matchMedia("(max-width: 768px)");
 
+
+
 if (mediaqueryList.matches) {
-    k.style = "width: 100%;height: 7em;";
+    k.style = "animation: KE-k 60s forwards;";
+    a.style = "animation: KE-a 60s forwards;";
+    z.style = "animation: KE-z 60s forwards;";
+    e.style = "animation: KE-e 60s forwards;";
 } else {
     k.style = "animation: K-k .2s forwards;";
     a.style = "animation: K-a .2s forwards;";

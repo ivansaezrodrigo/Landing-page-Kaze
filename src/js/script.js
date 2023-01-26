@@ -18,7 +18,6 @@ logo.addEventListener('mouseover', () => {
 });
 
 nav.addEventListener('click', () => {
-    // En el caso de que el media query se cumpla, se ejecuta el código
 
     if (window.matchMedia('(max-width: 768px)').matches) {
         if (!abierto) {
