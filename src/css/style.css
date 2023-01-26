@@ -226,8 +226,23 @@ video {
         height: 11.6em;
         width: 90%;
     }
-    nav div a {
-        display: none;
+    #logo{
+        z-index: 1000;
+        width: 8vh;
+    }
+    .enlaces {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 10vh;
+        width: 100%;
+    }
+    .enlaces a{
+        margin: -.7em 0;
+        z-index: 2;
+        width: 100%;
+        font-size: 1.5em;
+        background-color: #111;
     }
 
     nav {
