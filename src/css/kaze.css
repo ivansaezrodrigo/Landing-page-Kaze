@@ -1,0 +1,734 @@
+#k,
+#a,
+#z,
+#e {
+    filter: invert(1);
+    width: 30vh;
+    height: 30vh;
+    margin: 0 1rem;
+    user-select: none;
+}
+
+#k {
+    top: 0;
+    left: 0;
+    /* animation: K-k .8s forwards; */
+    /* animation: A-k .8s forwards; */
+    /* animation: Z-k .8s forwards; */
+    /* animation: E-k .8s forwards; */
+}
+
+#a {
+    top: 0;
+    right: 0;
+    /* animation: K-a .8s forwards; */
+    /* animation: A-a .8s forwards; */
+    /* animation: Z-a .8s forwards; */
+    /* animation: E-a .8s forwards; */
+}
+
+#z {
+    bottom: 0;
+    left: 0;
+    /* animation: K-z .8s forwards; */
+    /* animation: A-z .8s forwards; */
+    /* animation: Z-z .8s forwards; */
+    /* animation: E-z .8s forwards; */
+}
+
+#e {
+    bottom: 0;
+    right: 0;
+    /* animation: K-e .8s forwards; */
+    /* animation: A-e .8s forwards; */
+    /* animation: Z-e .8s forwards; */
+    /* animation: E-e .8s forwards; */
+}
+
+
+/* Posicion K */
+
+@keyframes K-k {
+    100% {
+        width: 80vh;
+        height: 40vh;
+    }
+}
+
+@keyframes K-a {
+    100% {
+        width: 25vh;
+        height: 40vh;
+    }
+}
+
+@keyframes K-z {
+    100% {
+        width: 80vh;
+        height: 10vh;
+    }
+}
+
+@keyframes K-e {
+    100% {
+        width: 25vh;
+        height: 10vh;
+    }
+}
+
+
+/* Posicion Z */
+
+@keyframes Z-k {
+    100% {
+        width: 80vh;
+        height: 10vh;
+    }
+}
+
+@keyframes Z-a {
+    100% {
+        width: 25vh;
+        height: 10vh;
+    }
+}
+
+@keyframes Z-z {
+    100% {
+        width: 80vh;
+        height: 40vh;
+    }
+}
+
+@keyframes Z-e {
+    100% {
+        width: 25vh;
+        height: 40vh;
+    }
+}
+
+
+/* Posicion A */
+
+@keyframes A-a {
+    100% {
+        width: 80vh;
+        height: 40vh;
+    }
+}
+
+@keyframes A-k {
+    100% {
+        width: 25vh;
+        height: 40vh;
+    }
+}
+
+@keyframes A-z {
+    100% {
+        width: 25vh;
+        height: 10vh;
+    }
+}
+
+@keyframes A-e {
+    100% {
+        width: 80vh;
+        height: 10vh;
+    }
+}
+
+
+/* Posicion E */
+
+@keyframes E-e {
+    100% {
+        width: 80vh;
+        height: 40vh;
+    }
+}
+
+@keyframes E-k {
+    100% {
+        width: 25vh;
+        height: 10vh;
+    }
+}
+
+@keyframes E-z {
+    100% {
+        width: 25vh;
+        height: 40vh;
+    }
+}
+
+@keyframes E-a {
+    100% {
+        width: 80vh;
+        height: 10vh;
+    }
+}
+
+
+/* Posicion K a A */
+
+@keyframes KA-a {
+    0% {
+        width: 25vh;
+        height: 40vh;
+    }
+    100% {
+        width: 80vh;
+        height: 40vh;
+    }
+}
+
+@keyframes KA-k {
+    0% {
+        width: 80vh;
+        height: 40vh;
+    }
+    100% {
+        width: 25vh;
+        height: 40vh;
+    }
+}
+
+@keyframes KA-z {
+    0% {
+        width: 80vh;
+        height: 10vh;
+    }
+    100% {
+        width: 25vh;
+        height: 10vh;
+    }
+}
+
+@keyframes KA-e {
+    0% {
+        width: 25vh;
+        height: 10vh;
+    }
+    100% {
+        width: 80vh;
+        height: 10vh;
+    }
+}
+
+
+/* Posicion K a Z */
+
+@keyframes KZ-a {
+    0% {
+        width: 25vh;
+        height: 40vh;
+    }
+    100% {
+        width: 25vh;
+        height: 10vh;
+    }
+}
+
+@keyframes KZ-k {
+    0% {
+        width: 80vh;
+        height: 40vh;
+    }
+    100% {
+        width: 80vh;
+        height: 10vh;
+    }
+}
+
+@keyframes KZ-z {
+    0% {
+        width: 80vh;
+        height: 10vh;
+    }
+    100% {
+        width: 80vh;
+        height: 40vh;
+    }
+}
+
+@keyframes KZ-e {
+    0% {
+        width: 25vh;
+        height: 10vh;
+    }
+    100% {
+        width: 25vh;
+        height: 40vh;
+    }
+}
+
+
+/* Posicion de K a E*/
+
+@keyframes KE-a {
+    0% {
+        width: 25vh;
+        height: 40vh;
+    }
+    100% {
+        width: 80vh;
+        height: 10vh;
+    }
+}
+
+@keyframes KE-k {
+    0% {
+        width: 80vh;
+        height: 40vh;
+    }
+    100% {
+        width: 25vh;
+        height: 10vh;
+    }
+}
+
+@keyframes KE-z {
+    0% {
+        width: 80vh;
+        height: 10vh;
+    }
+    100% {
+        width: 25vh;
+        height: 40vh;
+    }
+}
+
+@keyframes KE-e {
+    0% {
+        width: 25vh;
+        height: 10vh;
+    }
+    100% {
+        width: 80vh;
+        height: 40vh;
+    }
+}
+
+
+/* Posicion de A a K*/
+
+@keyframes AK-a {
+    0% {
+        width: 80vh;
+        height: 40vh;
+    }
+    100% {
+        width: 25vh;
+        height: 40vh;
+    }
+}
+
+@keyframes AK-k {
+    0% {
+        width: 25vh;
+        height: 40vh;
+    }
+    100% {
+        width: 80vh;
+        height: 40vh;
+    }
+}
+
+@keyframes AK-z {
+    0% {
+        width: 25vh;
+        height: 10vh;
+    }
+    100% {
+        width: 80vh;
+        height: 10vh;
+    }
+}
+
+@keyframes AK-e {
+    0% {
+        width: 80vh;
+        height: 10vh;
+    }
+    100% {
+        width: 25vh;
+        height: 10vh;
+    }
+}
+
+
+/* Posicion de A a Z */
+
+@keyframes AZ-a {
+    0% {
+        width: 80vh;
+        height: 40vh;
+    }
+    100% {
+        width: 25vh;
+        height: 10vh;
+    }
+}
+
+@keyframes AZ-k {
+    0% {
+        width: 25vh;
+        height: 40vh;
+    }
+    100% {
+        width: 80vh;
+        height: 10vh;
+    }
+}
+
+@keyframes AZ-z {
+    0% {
+        width: 25vh;
+        height: 10vh;
+    }
+    100% {
+        width: 80vh;
+        height: 40vh;
+    }
+}
+
+@keyframes AZ-e {
+    0% {
+        width: 80vh;
+        height: 10vh;
+    }
+    100% {
+        width: 25vh;
+        height: 40vh;
+    }
+}
+
+
+/* Posicion de A a E*/
+
+@keyframes AE-a {
+    0% {
+        width: 80vh;
+        height: 40vh;
+    }
+    100% {
+        width: 80vh;
+        height: 10vh;
+    }
+}
+
+@keyframes AE-k {
+    0% {
+        width: 25vh;
+        height: 40vh;
+    }
+    100% {
+        width: 25vh;
+        height: 10vh;
+    }
+}
+
+@keyframes AE-z {
+    0% {
+        width: 25vh;
+        height: 10vh;
+    }
+    100% {
+        width: 25vh;
+        height: 40vh;
+    }
+}
+
+@keyframes AE-e {
+    0% {
+        width: 80vh;
+        height: 10vh;
+    }
+    100% {
+        width: 80vh;
+        height: 40vh;
+    }
+}
+
+
+/* Posicion de Z a K*/
+
+@keyframes ZK-a {
+    0% {
+        width: 25vh;
+        height: 10vh;
+    }
+    100% {
+        width: 25vh;
+        height: 40vh;
+    }
+}
+
+@keyframes ZK-k {
+    0% {
+        width: 80vh;
+        height: 10vh;
+    }
+    100% {
+        width: 80vh;
+        height: 40vh;
+    }
+}
+
+@keyframes ZK-z {
+    0% {
+        width: 80vh;
+        height: 40vh;
+    }
+    100% {
+        width: 80vh;
+        height: 10vh;
+    }
+}
+
+@keyframes ZK-e {
+    0% {
+        width: 25vh;
+        height: 40vh;
+    }
+    100% {
+        width: 25vh;
+        height: 10vh;
+    }
+}
+
+
+/* Posicion de Z a A*/
+
+@keyframes ZA-a {
+    0% {
+        width: 25vh;
+        height: 10vh;
+    }
+    100% {
+        width: 80vh;
+        height: 40vh;
+    }
+}
+
+@keyframes ZA-k {
+    0% {
+        width: 80vh;
+        height: 10vh;
+    }
+    100% {
+        width: 25vh;
+        height: 40vh;
+    }
+}
+
+@keyframes ZA-z {
+    0% {
+        width: 80vh;
+        height: 40vh;
+    }
+    100% {
+        width: 25vh;
+        height: 10vh;
+    }
+}
+
+@keyframes ZA-e {
+    0% {
+        width: 25vh;
+        height: 40vh;
+    }
+    100% {
+        width: 80vh;
+        height: 10vh;
+    }
+}
+
+
+/* Posicion de Z a E*/
+
+@keyframes ZE-a {
+    0% {
+        width: 25vh;
+        height: 10vh;
+    }
+    100% {
+        width: 80vh;
+        height: 10vh;
+    }
+}
+
+@keyframes ZE-k {
+    0% {
+        width: 80vh;
+        height: 10vh;
+    }
+    100% {
+        width: 25vh;
+        height: 10vh;
+    }
+}
+
+@keyframes ZE-z {
+    0% {
+        width: 80vh;
+        height: 40vh;
+    }
+    100% {
+        width: 25vh;
+        height: 40vh;
+    }
+}
+
+@keyframes ZE-e {
+    0% {
+        width: 25vh;
+        height: 40vh;
+    }
+    100% {
+        width: 80vh;
+        height: 40vh;
+    }
+}
+
+
+/* Posicion de E a K*/
+
+@keyframes EK-a {
+    0% {
+        width: 80vh;
+        height: 10vh;
+    }
+    100% {
+        width: 25vh;
+        height: 40vh;
+    }
+}
+
+@keyframes EK-k {
+    0% {
+        width: 25vh;
+        height: 10vh;
+    }
+    100% {
+        width: 80vh;
+        height: 40vh;
+    }
+}
+
+@keyframes EK-z {
+    0% {
+        width: 25vh;
+        height: 40vh;
+    }
+    100% {
+        width: 80vh;
+        height: 10vh;
+    }
+}
+
+@keyframes EK-e {
+    0% {
+        width: 80vh;
+        height: 40vh;
+    }
+    100% {
+        width: 25vh;
+        height: 10vh;
+    }
+}
+
+
+/* Posicion de E a A*/
+
+@keyframes EA-a {
+    0% {
+        width: 80vh;
+        height: 10vh;
+    }
+    100% {
+        width: 80vh;
+        height: 40vh;
+    }
+}
+
+@keyframes EA-k {
+    0% {
+        width: 25vh;
+        height: 10vh;
+    }
+    100% {
+        width: 25vh;
+        height: 40vh;
+    }
+}
+
+@keyframes EA-z {
+    0% {
+        width: 25vh;
+        height: 40vh;
+    }
+    100% {
+        width: 25vh;
+        height: 10vh;
+    }
+}
+
+@keyframes EA-e {
+    0% {
+        width: 80vh;
+        height: 40vh;
+    }
+    100% {
+        width: 80vh;
+        height: 10vh;
+    }
+}
+
+
+/* Posicion de E a Z*/
+
+@keyframes EZ-a {
+    0% {
+        width: 80vh;
+        height: 10vh;
+    }
+    100% {
+        width: 25vh;
+        height: 10vh;
+    }
+}
+
+@keyframes EZ-k {
+    0% {
+        width: 25vh;
+        height: 10vh;
+    }
+    100% {
+        width: 80vh;
+        height: 10vh;
+    }
+}
+
+@keyframes EZ-z {
+    0% {
+        width: 25vh;
+        height: 40vh;
+    }
+    100% {
+        width: 80vh;
+        height: 40vh;
+    }
+}
+
+@keyframes EZ-e {
+    0% {
+        width: 80vh;
+        height: 40vh;
+    }
+    100% {
+        width: 25vh;
+        height: 40vh;
+    }
+}

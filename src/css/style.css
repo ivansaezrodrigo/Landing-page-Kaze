@@ -1,0 +1,111 @@
+a {
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 0em;
+    width: 100%;
+    height: 100%;
+}
+
+img {
+    -webkit-user-drag: none;
+    -khtml-user-drag: none;
+    -moz-user-drag: none;
+    -o-user-drag: none;
+}
+
+body {
+    margin: 0;
+    background-color: #111;
+}
+
+#logo {
+    filter: invert(1);
+    width: 5vh;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    height: 10vh;
+    padding: 0 4em;
+    background-color: #111;
+    justify-content: space-between;
+    font-size: 1.3em;
+}
+
+.enlaces {
+    display: flex;
+    gap: 2em;
+}
+
+video {
+    z-index: -1;
+}
+
+.hero__video {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    user-select: none;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+}
+
+.hero__letras {
+    z-index: 999;
+    position: absolute;
+    top: 5vh;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+}
+
+.hero__letras--container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    gap: 2%;
+}
+
+.hero__letras--row1,
+.hero__letras--row2 {
+    display: flex;
+    width: fit-content;
+    height: fit-content;
+    justify-content: center;
+}
+
+.temas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.tema__colores {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-image: url('../imgs/ropa_de_colores.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
