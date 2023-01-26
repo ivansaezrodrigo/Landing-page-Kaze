@@ -60,12 +60,12 @@ nav {
 #logo {
     filter: invert(1);
     width: 5vh;
-    transition: filter .3s;
 }
 
-#logo:hover {
+
+/* #logo:hover {
     filter: invert(1) brightness(.6);
-}
+} */
 
 .enlaces {
     z-index: 3;
@@ -227,6 +227,18 @@ video {
     height: 2em;
 }
 
+@keyframes rotacion_colores {
+    0% {
+        filter: invert(1);
+    }
+    50% {
+        filter: invert(35%) sepia(21%) saturate(1251%) hue-rotate(360deg) brightness(171%) contrast(152%);
+    }
+    100% {
+        filter: invert(35%) sepia(21%) saturate(1251%) hue-rotate(0deg) brightness(171%) contrast(152%);
+    }
+}
+
 @media (max-width: 868px) {
     html,
     body,
@@ -259,6 +271,12 @@ video {
     nav {
         cursor: pointer;
         justify-content: center;
+    }
+    .hero__letras {
+        background-image: url('../imgs/hero__gif.gif');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
     }
     #K,
     #A,

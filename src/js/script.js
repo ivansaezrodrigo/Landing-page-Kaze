@@ -11,7 +11,11 @@ setInterval(() => {
 const nav = document.querySelector('nav');
 const enlaces = document.querySelector('.enlaces');
 let abierto = false;
+const logo = document.querySelector('#logo');
 
+logo.addEventListener('mouseover', () => {
+    logo.style = 'animation: rotacion_colores 1s alternate;';
+});
 
 nav.addEventListener('click', () => {
     // En el caso de que el media query se cumpla, se ejecuta el código
