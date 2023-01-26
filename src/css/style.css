@@ -76,6 +76,7 @@ nav {
 .enlaces a {
     transition: .3s color;
     padding: 1em;
+    width: 86%;
 }
 
 .enlaces a:hover {
