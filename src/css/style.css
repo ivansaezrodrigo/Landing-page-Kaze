@@ -1,7 +1,11 @@
 a {
     text-decoration: none;
     color: #fff;
+}
+
+* {
     font-family: 'Roboto', sans-serif;
+    color: #BBB;
 }
 
 main {
@@ -22,6 +26,17 @@ img {
 body {
     margin: 0;
     background-color: #111;
+}
+
+footer {
+    padding: .2em 0;
+    text-align: center;
+    background-color: #000;
+    color: #222;
+}
+
+footer b {
+    color: #333;
 }
 
 #logo {
