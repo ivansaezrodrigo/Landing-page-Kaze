@@ -12,6 +12,7 @@ const nav = document.querySelector('nav');
 const enlaces = document.querySelector('.enlaces');
 let abierto = false;
 
+
 nav.addEventListener('click', () => {
     // En el caso de que el media query se cumpla, se ejecuta el código
 
